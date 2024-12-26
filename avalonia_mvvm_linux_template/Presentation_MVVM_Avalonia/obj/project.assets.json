@@ -2977,7 +2977,6 @@
       "packagesPath": "/home/querzion/.nuget/packages/",
       "outputPath": "/home/querzion/RiderProjects/avalonia.mvvm.linux.template/avalonia_mvvm_linux_template/Presentation_MVVM_Avalonia/obj/",
       "projectStyle": "PackageReference",
-      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
         "/home/querzion/.nuget/NuGet/NuGet.Config"
       ],
@@ -2985,6 +2984,7 @@
         "net9.0"
       ],
       "sources": {
+        "/usr/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3002,7 +3002,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -3061,7 +3062,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/var/run/host/usr/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
